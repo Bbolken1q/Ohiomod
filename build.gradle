@@ -16,7 +16,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.0.1-1.18.2'
+version = '0.1'
 group = 'com.BolekB.ohiomod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ohiomod'
 
@@ -59,7 +59,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                ohiomod {
+                tutorialmod {
                     source sourceSets.main
                 }
             }
@@ -81,7 +81,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                ohiomod {
+                tutorialmod {
                     source sourceSets.main
                 }
             }
@@ -106,7 +106,7 @@ minecraft {
             args '--mod', 'ohiomod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                ohiomod {
+                tutorialmod {
                     source sourceSets.main
                 }
             }
