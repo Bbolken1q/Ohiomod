@@ -63,10 +63,3 @@ with credit to it's authors.
 Forge Mod Loader downloads components from the Minecraft Coder Pack
 (http://mcp.ocean-labs.de/index.php/Main_Page) with kind permission from the MCP team.
 
-
-Textures by nanoattack:
-https://www.fiverr.com/nanoattack/help-design-and-draw-pixel-art
-
-distributed under CC BY-SA 4.0 International License:
-https://creativecommons.org/licenses/by-sa/4.0/
-
