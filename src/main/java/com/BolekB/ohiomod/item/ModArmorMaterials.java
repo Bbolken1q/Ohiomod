@@ -12,7 +12,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    OHIUM("ohium", 64, new int[]{1, 3, 7, 2}, 19, SoundEvents.ARMOR_EQUIP_TURTLE,
+    OHIUM("baller", 64, new int[]{1, 3, 7, 2}, 19, SoundEvents.ARMOR_EQUIP_TURTLE,
             2.0F, -1.0F, () -> Ingredient.of(ModItems.OHIUM.get()));
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

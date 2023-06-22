@@ -1,10 +1,10 @@
-C:\Users\bolek\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.2.9_mapped_official_1.18.2\forge-1.18.2-40.2.9_mapped_official_1.18.2-recomp.jar
+C:\Users\bolek\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.2.7_mapped_parchment_2022.08.07-1.18.2\forge-1.18.2-40.2.7_mapped_parchment_2022.08.07-1.18.2.jar
 C:\Users\bolek\.gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
-C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.2.9\f8c2ae274ba0d39da23d0c173982e53f0b14d66d\javafmllanguage-1.18.2-40.2.9.jar
-C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.2.9\14d7918b04a606bfe7b8ab2bfdb0850552ccccbd\lowcodelanguage-1.18.2-40.2.9.jar
-C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.2.9\64203f2c80bfd98df8054e4ba9dfbdf4976b677a\mclanguage-1.18.2-40.2.9.jar
-C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.2.9\b906edb362c2314b1d23155e078e62abc2b9e58f\fmlcore-1.18.2-40.2.9.jar
-C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.18.2-40.2.9\e28c507d43289c3b74c6416563f66fa4d7d8b46b\fmlloader-1.18.2-40.2.9.jar
+C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.2.7\3b6a80d05d79b47375e06e554b201d7c3226676a\javafmllanguage-1.18.2-40.2.7.jar
+C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.2.7\ee6865ce09459368b6b5b58f1f55c696d3bb9303\lowcodelanguage-1.18.2-40.2.7.jar
+C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.2.7\b217b947d87a617b87289c8f714d55671a1bdd07\mclanguage-1.18.2-40.2.7.jar
+C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.2.7\718b288897eb2bbda01886c70dbaad417469ec49\fmlcore-1.18.2-40.2.7.jar
+C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.18.2-40.2.7\cba76ce3397cd16cf0ee63da7814006db4901d49\fmlloader-1.18.2-40.2.7.jar
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.0.1-jre\119ea2b2bc205b138974d351777b20f02b92704b\guava-31.0.1-jre.jar
@@ -12,7 +12,7 @@ C:\Users\bolek\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr30
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.3\d7d4b6eac7f49c59255c8ac25190802c29ac9a4a\mergetool-1.1.3-api.jar
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar
-C:\Users\bolek\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.2\mapping-1.18.2-mapping.zip
+C:\Users\bolek\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.18.2\2022.08.07\parchment-1.18.2-2022.08.07.zip
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.2\ca04eeee6c3764c151b2a2efa675057a7531acc4\coremods-5.0.2.jar
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\4.0.15-4.x\1d10ffe779684cb20f2b63bdcc030152e47116bb\forgespi-4.0.15-4.x.jar
 C:\Users\bolek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
