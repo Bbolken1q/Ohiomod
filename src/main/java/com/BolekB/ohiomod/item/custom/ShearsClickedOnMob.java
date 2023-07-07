@@ -1,5 +1,6 @@
 package com.BolekB.ohiomod.item.custom;
 
+import com.BolekB.ohiomod.item.ModItems;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -21,22 +22,25 @@ public class ShearsClickedOnMob {
     public static void onRightClickEntity(PlayerInteractEvent.EntityInteract event) {
         if (event.getHand() != event.getPlayer().getUsedItemHand())
             return;
-        execute(event, event.getWorld(), event.getTarget(), event.getPlayer());
+        execute(event, event.getWorld(), event.getTarget());
     }
 
-    public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
-        execute(null, world, entity, sourceentity);
+    public static void execute(LevelAccessor world, Entity entity) {
+        execute(null, world, entity);
     }
 
-    private static void execute(@Nullable Event event, LevelAccessor world, Entity entity, Entity sourceentity) {
-        if (entity == null || sourceentity == null)
+    private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
+        if (entity == null)
             return;
-        if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.SHEARS) {
-            if (world instanceof Level _level && !_level.isClientSide()) {
-                ItemEntity entityToSpawn = new ItemEntity(_level, (sourceentity.getX()), (sourceentity.getY()), (sourceentity.getZ()), new ItemStack(Blocks.BUDDING_AMETHYST));
-                entityToSpawn.setPickUpDelay(5);
-                _level.addFreshEntity(entityToSpawn);
+        if (entity.getPersistentData().getBoolean("NoBalls") != true) {
+            for (int index0 = 0; index0 < (int) (2); index0++) {
+                if (world instanceof Level _level && !_level.isClientSide()) {
+                    ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(ModItems.BALL.get()));
+                    entityToSpawn.setPickUpDelay(5);
+                    _level.addFreshEntity(entityToSpawn);
+                }
             }
+            entity.getPersistentData().putBoolean("NoBalls", (true));
         }
     }
 }

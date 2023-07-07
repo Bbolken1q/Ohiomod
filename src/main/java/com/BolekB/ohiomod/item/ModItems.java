@@ -27,9 +27,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> BALLER_PANTS = ITEMS.register("baller_pants",
             () -> new ArmorItem(ModArmorMaterials.OHIUM, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-
+/*
+    Ball Gun
+*/
     public static final RegistryObject<Item> BALL_GUN = ITEMS.register("ball_gun",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+
+    public static final RegistryObject<Item> BALL = ITEMS.register("ball",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
 

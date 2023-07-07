@@ -12,6 +12,10 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="srgType" value="SRG" />
+    <option name="mappingFile" value="C:\Users\bolek\Desktop\Ohiomod\JavaExampleMod\build\createMcpToSrg\output.tsrg" />
+    <option name="mcpVersion" value="parchment_2022.08.07-1.18.2" />
+    <option name="minecraftVersion" value="1.18.2" />
+    <option name="platformVersion" value="40.2.9" />
+    <option name="srgType" value="TSRG" />
   </component>
 </module>
