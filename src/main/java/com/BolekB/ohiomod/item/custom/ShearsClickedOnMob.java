@@ -32,7 +32,7 @@ public class ShearsClickedOnMob {
     private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
         if (entity == null)
             return;
-        if (entity.getPersistentData().getBoolean("NoBalls") != true) {
+        if (!entity.getPersistentData().getBoolean("NoBalls")) {
             for (int index0 = 0; index0 < (int) (2); index0++) {
                 if (world instanceof Level _level && !_level.isClientSide()) {
                     ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(ModItems.BALL.get()));
