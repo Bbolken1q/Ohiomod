@@ -1,6 +1,7 @@
 package com.BolekB.ohiomod;
 
 import com.BolekB.ohiomod.item.ModItems;
+import com.BolekB.ohiomod.item.ModSounds;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +33,8 @@ public class Ohiomod {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModSounds.register(eventBus);
+
 
         eventBus.addListener(this::setup);
 
@@ -44,5 +47,4 @@ public class Ohiomod {
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
-
 }

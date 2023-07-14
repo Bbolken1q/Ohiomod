@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "c c",
+        "O O"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:copper_ingot"
+        },
+        "O": {
+            "item": "ohiomod:ball"
+        }
+    },
+    "result": {
+        "item": "ohiomod:baller_sneakers",
+        "count": 1
+    }
+}

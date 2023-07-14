@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#BS",
+        "N  "
+    ],
+    "key": {
+        "#": {
+            "item": "ohiomod:ball"
+        },
+        "B": {
+            "item": "minecraft:beacon"
+        },
+        "S": {
+            "item": "minecraft:shears"
+        },
+        "N": {
+            "item": "minecraft:netherite_hoe"
+        }
+    },
+    "result": {
+        "item": "ohiomod:ball_gun",
+        "count": 1
+    }
+}

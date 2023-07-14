@@ -1,0 +1,32 @@
+#This is an String value
+stringValue = "YEP"
+#This is a Boolean value
+booleanValue = false
+
+#YEP
+[more_properties]
+	#This is an Integer value
+	#Range: 0 ~ 10
+	int_Value = 0
+	#This is a Double value
+	#Range: 0.0 ~ 10.0
+	doubleValue = 0.0
+	#This is a Long value
+	#Range: 0 ~ 10
+	longValue = 0
+	#This is an Enum value
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	enumValue = "BLACK"
+
+[lists]
+	#This is an Integer list
+	intList = [5, 10]
+	#This is an Long list
+	longList = [5, 10]
+	#This is an Double list
+	doubleList = [0.5, 1.0]
+	#This is a String list
+	stringList = ["test", "yo"]
+	#This is a List of Item Locations
+	listOfItems = ["minecraft:apple", "minecraft:iron_ingot"]
+

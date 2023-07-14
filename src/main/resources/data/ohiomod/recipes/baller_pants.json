@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L#",
+        "L L",
+        "N B"
+    ],
+    "key": {
+        "#": {
+            "item": "ohiomod:ball"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "N": {
+            "item": "minecraft:nether_brick"
+        },
+        "B": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result": {
+        "item": "ohiomod:baller_pants",
+        "count": 1
+    }
+}

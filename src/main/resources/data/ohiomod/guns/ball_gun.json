@@ -1,0 +1,33 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 3,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 6,
+    "reloadAmount": 2,
+    "recoilAngle":  4
+  },
+  "projectile": {
+    "item": "ohiomod:ball",
+    "visible": false,
+    "damage": 7.0,
+    "size": 0.2,
+    "speed": 4.0,
+    "life": 200,
+    "gravity": false
+  },
+  "sounds": {
+    "fire": "ohiomod:item.ball_gun.fire",
+    "reload": "ohiomod:item.ball_gun.reload",
+    "cock": "ohiomod:item.ball_gun.reload",
+    "silencedFire": "ohiomod:item.ball_gun.fire"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 4.5
+    },
+    "attachments": {
+    }
+  }
+}

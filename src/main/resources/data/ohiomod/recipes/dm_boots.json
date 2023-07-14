@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "projecte:dark_matter"
+        },
+        "O": {
+            "item": "ohiomod:baller_sneakers"
+        }
+    },
+    "result": {
+        "item": "projecte:dm_boots",
+        "count": 1
+    }
+}

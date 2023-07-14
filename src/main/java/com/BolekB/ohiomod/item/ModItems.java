@@ -19,6 +19,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_OHIUM = ITEMS.register("raw_ohium",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+
+    public static final RegistryObject<Item> OBSIDIAN_FRAGMENT = ITEMS.register("obsidian_fragment",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 /*
     Baller Armor
 */
@@ -31,7 +34,7 @@ public class ModItems {
     Ball Gun
 */
     public static final RegistryObject<Item> BALL_GUN = ITEMS.register("ball_gun",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 
     public static final RegistryObject<Item> BALL = ITEMS.register("ball",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));

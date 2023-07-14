@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+            "item": "minecraft:diamond_block"
+        },
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        }
+    ],
+    "result": {
+        "item": "ohiomod:obsidian_fragment",
+        "count": 1
+    }
+}
