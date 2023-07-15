@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "ohiomod:item/ball_gun",
-		"particle": "block/texture"
+		"0": "ohiomod:item/ball_gun"
 	},
 	"elements": [
 		{
@@ -118,7 +117,7 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 180, 0],
-			"translation": [0, 3.5, 0]
+			"translation": [0, 8.75, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-90, 0, 0],

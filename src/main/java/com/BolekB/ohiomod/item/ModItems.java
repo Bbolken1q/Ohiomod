@@ -1,6 +1,7 @@
 package com.BolekB.ohiomod.item;
 
 import com.BolekB.ohiomod.Ohiomod;
+import com.mrcrayfish.guns.item.GunItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,7 +35,7 @@ public class ModItems {
     Ball Gun
 */
     public static final RegistryObject<Item> BALL_GUN = ITEMS.register("ball_gun",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+            () -> new GunItem(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 
     public static final RegistryObject<Item> BALL = ITEMS.register("ball",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));

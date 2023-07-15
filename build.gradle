@@ -78,7 +78,7 @@ dependencies {
     implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4344223')
     runtimeOnly fg.deobf('curse.maven:configured-457570:3721946')
     runtimeOnly fg.deobf('curse.maven:catalogue-459701:3803098')
-    runtimeOnly fg.deobf('curse.maven:jei-238222:3885885')
+    runtimeOnly fg.deobf("curse.maven:lazy-dfu-forge-460819:3544496")
 }
 
 jar {

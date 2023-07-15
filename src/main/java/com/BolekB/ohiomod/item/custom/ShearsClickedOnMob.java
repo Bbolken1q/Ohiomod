@@ -22,25 +22,27 @@ public class ShearsClickedOnMob {
     public static void onRightClickEntity(PlayerInteractEvent.EntityInteract event) {
         if (event.getHand() != event.getPlayer().getUsedItemHand())
             return;
-        execute(event, event.getWorld(), event.getTarget());
+        execute(event, event.getWorld(), event.getTarget(), event.getPlayer());
     }
 
-    public static void execute(LevelAccessor world, Entity entity) {
-        execute(null, world, entity);
+    public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
+        execute(null, world, entity, sourceentity);
     }
 
-    private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
-        if (entity == null)
+    private static void execute(@Nullable Event event, LevelAccessor world, Entity entity, Entity sourceentity) {
+        if (entity == null || sourceentity == null)
             return;
-        if (!entity.getPersistentData().getBoolean("NoBalls")) {
-            for (int index0 = 0; index0 < (int) (2); index0++) {
-                if (world instanceof Level _level && !_level.isClientSide()) {
-                    ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(ModItems.BALL.get()));
-                    entityToSpawn.setPickUpDelay(5);
-                    _level.addFreshEntity(entityToSpawn);
+        if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.SHEARS) {
+            if (entity.getPersistentData().getBoolean("NoBalls") != true) {
+                for (int index0 = 0; index0 < (int) (2); index0++) {
+                    if (world instanceof Level _level && !_level.isClientSide()) {
+                        ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(ModItems.BALL.get()));
+                        entityToSpawn.setPickUpDelay(5);
+                        _level.addFreshEntity(entityToSpawn);
+                    }
                 }
+                entity.getPersistentData().putBoolean("NoBalls", (true));
             }
-            entity.getPersistentData().putBoolean("NoBalls", (true));
         }
     }
 }
