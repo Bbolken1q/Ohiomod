@@ -10,7 +10,7 @@
   "projectile": {
     "item": "ohiomod:ball",
     "visible": false,
-    "damage": 7.0,
+    "damage": 12.0,
     "size": 0.2,
     "speed": 4.0,
     "life": 200,
