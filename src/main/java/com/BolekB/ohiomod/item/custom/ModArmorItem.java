@@ -33,8 +33,7 @@ public class ModArmorItem extends ArmorItem {
             if (!entity.isOnGround()) {
             if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == ModItems.BALLER_PANTS.get()) {
                     if (entity.isShiftKeyDown()) {
-                        entity.setDeltaMovement(new Vec3((entity.getLookAngle().x + Mth.nextInt(new Random(), (int) (0), (int) 1/4)), (entity.getDeltaMovement().y()),
-                                (entity.getLookAngle().z - Mth.nextInt(new Random(), (int) (0), (int) 1/4))));
+                        entity.setDeltaMovement(new Vec3((entity.getLookAngle().x), (entity.getDeltaMovement().y()), (entity.getLookAngle().z)));
                     }
                 }
             }

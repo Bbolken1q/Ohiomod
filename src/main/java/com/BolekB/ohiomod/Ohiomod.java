@@ -1,6 +1,6 @@
 package com.BolekB.ohiomod;
 
-import com.BolekB.ohiomod.enchantment.ModEnchantments;
+//import com.BolekB.ohiomod.enchantment.ModEnchantments;
 import com.BolekB.ohiomod.item.ModItems;
 import com.BolekB.ohiomod.item.ModSounds;
 import net.minecraft.world.level.block.Block;
@@ -35,7 +35,7 @@ public class Ohiomod {
 
         ModItems.register(eventBus);
         ModSounds.register(eventBus);
-        ModEnchantments.register(eventBus);
+//        ModEnchantments.register(eventBus);
 
 
         eventBus.addListener(this::setup);

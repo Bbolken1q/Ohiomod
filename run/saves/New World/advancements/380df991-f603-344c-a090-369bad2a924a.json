@@ -566,7 +566,8 @@
       "minecraft:spider": "2023-07-15 12:15:43 +0200",
       "minecraft:creeper": "2023-07-15 12:18:32 +0200",
       "minecraft:zombie": "2023-06-23 15:32:40 +0200",
-      "minecraft:drowned": "2023-07-15 17:46:01 +0200"
+      "minecraft:drowned": "2023-07-15 17:46:01 +0200",
+      "minecraft:zombie_villager": "2023-08-01 12:17:32 +0200"
     },
     "done": false
   },

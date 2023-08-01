@@ -76,10 +76,14 @@ dependencies {
 
     implementation fg.deobf('curse.maven:framework-549225:4287475')
     implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4344223')
-//    implementation fg.deobf("curse.maven:projecte-226410:3722831")
+    implementation fg.deobf("curse.maven:projecte-226410:3722831")
+    implementation fg.deobf("curse.maven:curios-309927:4590652")
 //    runtimeOnly fg.deobf('curse.maven:configured-457570:3721946')
 //    runtimeOnly fg.deobf('curse.maven:catalogue-459701:3803098')
-//    runtimeOnly fg.deobf("curse.maven:lazy-dfu-forge-460819:3544496")
+    runtimeOnly fg.deobf("curse.maven:lazy-dfu-forge-460819:3544496")
+    runtimeOnly fg.deobf("curse.maven:roughly-enough-items-310111:4647675")
+    runtimeOnly fg.deobf("curse.maven:architectury-api-419699:4521465")
+    runtimeOnly fg.deobf("curse.maven:cloth-config-348521:4633387")
 }
 
 jar {

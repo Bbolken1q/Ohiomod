@@ -108,10 +108,16 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.curios.open.desc:key.keyboard.g
+key_key.projecte.helmet_toggle:key.keyboard.x:SHIFT
+key_key.projecte.boots_toggle:key.keyboard.x
+key_key.projecte.charge:key.keyboard.v
+key_key.projecte.extra_function:key.keyboard.c
+key_key.projecte.fire_projectile:key.keyboard.r
+key_key.projecte.mode:key.keyboard.g
 key_key.cgm.reload:key.keyboard.r
 key_key.cgm.unload:key.keyboard.u
 key_key.cgm.attachments:key.keyboard.z
-key_key.configured.open_mod_list:key.keyboard.unknown
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
