@@ -6,4 +6,5 @@ public class BallGunItem extends GunItem {
     public BallGunItem(Properties pProperties) {
         super(pProperties);
     }
+
 }
